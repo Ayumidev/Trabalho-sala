@@ -36,7 +36,8 @@ header{
 
 .text h1{
     font-family: "Crimson Pro", serif; 
-    width: 142px;
+    width: 274px;
+    height: 32px;
     font-size: 32px;
     line-height: 32px;
 }
@@ -45,15 +46,40 @@ header{
     font-family: "Lato", sans-serif;
     font-size: 10px;
     line-height: 10px;
+
+    width: 75px;
+    height: 10px;
 }
 
 .text h2{
     font-family: "Lato", sans-serif;
     font-size: 16px;
     line-height: 16px;
+
+    width: 65px;
+    height: 16px;
 }
 
 .text button{
-    border-radius: 99px;
+    display: flex;
+    justify-content: flex-start;
+
+    width: 110px;
+
+    color: var(--roxinho);
+    font-family: "Lato", sans-serif;
+    font-size: 12px;
+    padding: 3px;
+
+    border-radius: 999px;
+    border: solid 0.5px;
     background: none;
+
+    align-content: center;
+}
+
+button:hover {
+    color: rgb(122, 117, 117);
+    background-color: #b8a3f0;
+    border: solid 1px var(--lilas);
 }
